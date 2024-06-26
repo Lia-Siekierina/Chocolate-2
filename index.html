@@ -4,26 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Chocolate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="">SIMPLY CHOCOLATE<img src="" alt="logo icon" /></a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">How it's made?</a></li>
-          <li><a href="">Chocolate is loved</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a href="header-logo"
+          ><span class="header-logo-italic">SIMPLY</span> CHOCOLATE<img
+            src=""
+            alt="logo icon"
+        /></a>
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a class="htader-menu-link" href="">Home</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="htader-menu-link" href="">How it's made?</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="htader-menu-link" href="">Chocolate is loved</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="" target="_blank" rel="" noopener noreferrer>insta</a></li>
-        <li><a href="" target="_blank" rel="" noopener noreferrer>fb</a></li>
-        <li><a href="" target="_blank" rel="" noopener noreferrer>twit</a></li>
+      <ul class="header-soc-list">
+        <li class="header-soc-item">
+          <a
+            class="header-soc-link"
+            href=""
+            target="_blank"
+            rel=""
+            noopener
+            noreferrer
+            >insta</a
+          >
+        </li>
+        <li class="header-soc-item">
+          <a
+            class="header-soc-link"
+            href=""
+            target="_blank"
+            rel=""
+            noopener
+            noreferrer
+            >fb</a
+          >
+        </li>
+        <li class="header-soc-item">
+          <a
+            class="header-soc-link"
+            href=""
+            target="_blank"
+            rel=""
+            noopener
+            noreferrer
+            >twit</a
+          >
+        </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>
+      <section class="main">
+        <h1 class="main-header">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
@@ -31,21 +79,21 @@
         <a href="#made">How it's made</a>
         <a href="">scroll down</a>
       </section>
-      <section>
+      <section class="description">
         <h2 hidden>Title</h2>
-        <ul>
-          <li>
-            <h3>Unsurpassed taste</h3>
-            <p>
+        <ul class="menu-nav">
+          <li class="menu-item">
+            <h3 class="descr-name">Unsurpassed taste</h3>
+            <p class="menu-text">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
               Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
-            <h3>Affordable price</h3>
-            <p>
+          <li class="menu-item">
+            <h3 class="descr-name">Affordable price</h3>
+            <p class="menu-text">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -53,9 +101,9 @@
               affordable luxury today.
             </p>
           </li>
-          <li>
-            <h3>Own production</h3>
-            <p>
+          <li class="menu-item">
+            <h3 class="descr-name">Own production</h3>
+            <p class="menu-text">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -64,16 +112,19 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION</h2>
-        <p>
+      <section class="components">
+        <h2 class="header-comp">
+          IT ALL ADDS UP TO ONE EXCEPTIONAL
+          <span class="components-taste">TASTE</span> SENSATION
+        </h2>
+        <p class="text-comp">
           At Simply Chocolate, we believe that the secret to exceptional
           chocolate is in the details. From the sourcing of the finest
           ingredients to the careful crafting of each individual piece, every
           step of our process adds up to one exceptional taste sensation.
         </p>
-        <ul>
-          <li>
+        <ul class="comp-pictures">
+          <li class="comp-list">
             <img
               src="./images/img-1.png"
               width="206"
@@ -82,15 +133,15 @@
             />
             <h3>mILK CHOCOLATE</h3>
           </li>
-          <li>
+          <li class="comp-list">
             <img src="./images/img-2.png" width="206" height="160" alt="Milk" />
             <h3>Milk</h3>
           </li>
-          <li>
+          <li class="comp-list">
             <img src="./images/img-3.png" width="206" height="160" alt="nuts" />
             <h3>nuts</h3>
           </li>
-          <li>
+          <li class="comp-list">
             <img
               src="./images/img-4.png"
               width="206"
