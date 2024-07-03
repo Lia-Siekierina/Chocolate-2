@@ -103,6 +103,8 @@ address {
 
 .features {
   background: #1e1823;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .features-list {
 }
@@ -112,6 +114,7 @@ address {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  margin-bottom: 18px;
 }
 .features-item-text {
   font-size: 14px;
